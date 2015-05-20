@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     tools:context="net.kielian.www.tapforbpm.About">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="40px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/about_title"
+                android:id="@+id/about_title"
+                android:gravity="center" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="40px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/about_1"
+                android:id="@+id/about_1"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp" />
+            <Space
+                android:layout_width="20px"
+                android:layout_height="40px" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/about_2"
+                android:id="@+id/about_2"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp" />
+
+        </TableLayout>
+    </ScrollView>
+
+</FrameLayout>

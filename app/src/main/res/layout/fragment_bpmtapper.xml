@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:id="@+id/root_layout"
+    android:clickable="true"
+    android:layout_height="match_parent" tools:context="net.kielian.www.tapforbpm.BPMTapper">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="> Tap Here &lt; "
+        android:id="@+id/tap_here"
+        android:layout_gravity="center"
+        android:textSize="50dp" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Averager"
+        android:id="@+id/switch1"
+        android:layout_gravity="right|bottom"
+        android:checked="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal|bottom"
+        android:translationZ="20dp" />
+</FrameLayout>
